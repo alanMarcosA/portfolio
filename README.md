@@ -1,2 +1,0 @@
-# portfolio
-pagina web.
