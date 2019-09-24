@@ -1,14 +1,13 @@
 body{
     font-size: 1rem;
-
 }
 #proyecto .principal {
-    height: 250px;
-    border: 2px solid blueviolet;
+    height: 20vw;;
+    border: 2px solid red;
     margin: 10px;
 }
 .principal h2{
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid red;
 }
 .principal{
     display: flex;
@@ -39,4 +38,10 @@ main{
 }
 .descripcion{
     flex-grow: 1;
+}
+header nav{
+    display: inline;
+}
+header{
+    text-align: center;
 }
