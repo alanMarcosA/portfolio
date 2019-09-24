@@ -12,15 +12,23 @@ body{
 .principal{
     display: flex;
 }
-#perfil{
-    height: 20vw;
+.imgProyecto{
+    height: 100%;
     width: 20vw;
+    background-image: url(./../img/imgProyectoAux.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#perfil{
+    height: 18vw;
+    width: 18vw;
     margin: auto;
 }
 #perfil img {
     height: 100%;
     width: 100%;
     align-self: auto;
+    border-radius: 50%
 }
 #perfilP{
     width: 300px;
