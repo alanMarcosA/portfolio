@@ -4,7 +4,6 @@ body{
 }
 #proyecto .principal {
     height: 20vw;
-    border: 2px solid blue;
     margin: 10px;
 }
 .principal h2{
