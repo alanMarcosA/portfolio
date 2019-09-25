@@ -1,13 +1,14 @@
 body{
     font-size: 1rem;
+    background-color:rgb(185, 212, 247);
 }
 #proyecto .principal {
     height: 20vw;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 10px;
 }
 .principal h2{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid blue;
 }
 .principal{
     display: flex;
@@ -31,8 +32,9 @@ body{
     border-radius: 50%
 }
 #perfilP{
+    margin-top:10px;
     width: 300px;
-    height: 800px;
+    height: 50vh;
     display: block;
 }
 main{
@@ -56,10 +58,16 @@ header{
 nav a{
     text-decoration: none;
     color: black;
-    border: red solid 2px;
+    border: rgb(52, 118, 139) solid 2px;
     padding: 2px;
     border-radius: 10%;
 }
 nav a:hover{
-    background-color: rgb(247, 181, 181);
+    background-color: rgb(52, 118, 139);
+}
+.principal{
+    background-color: rgb(52, 118, 139);
+}
+#nombre{
+    margin-bottom: 2px;
 }
