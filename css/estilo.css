@@ -2,7 +2,7 @@ body{
     font-size: 1rem;
 }
 #proyecto .principal {
-    height: 20vw;;
+    height: 20vw;
     border: 2px solid red;
     margin: 10px;
 }
@@ -63,3 +63,23 @@ nav a{
 nav a:hover{
     background-color: rgb(247, 181, 181);
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #perfilP{
+        width: 90vw;
+        height: 90vw;;
+        display: inline;
+    }
+    main{
+        display: block;
+    }
+    #proyecto{
+        width: 90vw;
+        margin: auto;
+    }
+    .principal h2{
+        font-size: 0.8rem;
+    }
+  }
