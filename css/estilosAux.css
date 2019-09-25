@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #perfilP{
+        width: 90vw;
+        height: 35vw;;
+        display:flex;
+    }
+    main{
+        display: block;
+    }
+    #proyecto{
+        width: 90vw;
+        margin: auto;
+    }
+    .principal h2{
+        font-size: 0.8rem;
+    }
+    .principal p{
+        font-size: 0.8rem;
+    }
+    #nombre{
+        display: inline;
+        width: 150px;
+        height: 2vw;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    #perfil{
+        height: 28vw;
+        width: 28vw;
+        margin: auto;
+    }
+  }
