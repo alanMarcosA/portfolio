@@ -5,7 +5,7 @@
     #perfilP{
         width: 90vw;
         height: 35vw;;
-        display:flex;
+        display: inline;
     }
     main{
         display: block;
@@ -20,16 +20,11 @@
     .principal p{
         font-size: 0.8rem;
     }
-    #nombre{
-        display: inline;
-        width: 150px;
-        height: 2vw;
-        margin-bottom: auto;
-        margin-top: auto;
-    }
     #perfil{
-        height: 28vw;
-        width: 28vw;
-        margin: auto;
+        height: 23vw;
+        width: 23vw;
+    }
+    #nombre{
+        margin-bottom: 2px;
     }
   }
