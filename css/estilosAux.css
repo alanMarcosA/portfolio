@@ -24,5 +24,19 @@
         height: 23vw;
         width: 23vw;
     }
-
+    #imgProyecto1{
+        background-image: url(../img/imgTateti.png);
+    }
+    .imgProyecto{
+        height: 30vw;
+        width: 30vw;
+        background-image: url(./../img/imgProyectoAux.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 1vw;
+    }
+    #proyecto .principal {
+        height: 25vw;
+        margin: 10px;
+    }
   }
