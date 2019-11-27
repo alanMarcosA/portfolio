@@ -28,8 +28,8 @@
         background-image: url(../img/imgTateti.png);
     }
     .imgProyecto{
-        height: 30vw;
-        width: 30vw;
+        height: 25vw;
+        width: 25vw;
         background-image: url(./../img/imgProyectoAux.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -38,5 +38,9 @@
     #proyecto .principal {
         height: 25vw;
         margin: 10px;
+    }
+    .imgPro{
+        width: 25vw; 
+        height: 25vw;
     }
   }

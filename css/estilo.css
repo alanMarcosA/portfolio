@@ -13,7 +13,7 @@ body{
     display: flex;
 }
 .imgProyecto{
-    height: 100%;
+    height: 20vw;
     width: 20vw;
     background-image: url(./../img/imgProyectoAux.png);
     background-size: contain;
@@ -48,6 +48,7 @@ main{
 }
 .descripcion{
     flex-grow: 1;
+    margin-left: 1vw;
 }
 header nav{
     display: inline;
@@ -76,4 +77,8 @@ nav a:hover{
 }
 a{
     text-decoration: none;
+}
+.imgPro{
+    width: 20vw; 
+    height: 20vw;
 }
