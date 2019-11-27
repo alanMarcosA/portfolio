@@ -12,14 +12,7 @@ body{
 .principal{
     display: flex;
 }
-.imgProyecto{
-    height: 20vw;
-    width: 20vw;
-    background-image: url(./../img/imgProyectoAux.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 1vw;
-}
+
 #perfil{
     height: 18vw;
     width: 18vw;
@@ -71,9 +64,6 @@ nav a:hover{
 }
 #nombre{
     margin-bottom: 2px;
-}
-#imgProyecto1{
-    background-image: url(../img/imgTateti.png);
 }
 a{
     text-decoration: none;
