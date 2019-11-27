@@ -8,9 +8,13 @@ body{
 }
 .principal h2{
     border-bottom: 2px solid blue;
+    margin-bottom: 1vw;
 }
 .principal{
     display: flex;
+}
+.principal p{
+    margin-top: 1vw;
 }
 
 #perfil{
